@@ -582,15 +582,17 @@
 .sc-relate ul .info .tit {
   display: block;
   font-family: "genesis-head", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 .sc-relate ul .info .desc {
   font-family: "genesis-text", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   margin-bottom: 1.2rem;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
 }
 .sc-relate ul .btn-more {
   width: 100px;

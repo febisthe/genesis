@@ -232,7 +232,7 @@ gsap.to('.sc-relate', {
     start: "top bottom",
     end: "70% bottom",
     scrub: 1,
-    markers: true,
+    // markers: true,
   },
   clipPath: 'inset(0% 0% 0%)'
 })

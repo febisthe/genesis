@@ -354,7 +354,7 @@ body {
 }
 .sc-visual .visual-slide .pagination {
   position: absolute;
-  left: calc(50% + 380px);
+  left: calc(50% + 360px);
   bottom: 100px;
   z-index: 5;
   display: -webkit-box;
@@ -365,7 +365,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background: transparent;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: #fff;
 }
 .sc-visual .visual-slide .pagination .swiper-pagination-bullet {
@@ -726,19 +726,19 @@ body {
 }
 .sc-awards .awards-slide .swiper-slide .info .eyebrow {
   font-family: "genesis-head";
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   margin-bottom: 1.6rem;
 }
 .sc-awards .awards-slide .swiper-slide .info .title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 2.1rem;
 }
 .sc-awards .awards-slide .swiper-slide .info .desc {
   text-align: justify;
   margin-bottom: 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 1.5px;
   word-spacing: -1px;
   color: #ccc;
@@ -865,15 +865,17 @@ body {
 .sc-relate ul .info .tit {
   display: block;
   font-family: "genesis-head", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 .sc-relate ul .info .desc {
   font-family: "genesis-text", sans-serif;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 300;
   margin-bottom: 1.2rem;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
 }
 .sc-relate ul .btn-more {
   width: 100px;
