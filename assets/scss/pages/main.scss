@@ -116,7 +116,7 @@
   }
   .info{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 15%;
     display: flex;
     flex-direction: column;
@@ -130,7 +130,6 @@
       font-size: 3rem;
       font-family: 'genesis-head';
       font-weight: 300;
-      opacity: 0;
       transform: translateY(30%);
       margin-bottom: 2rem;
     }
@@ -138,7 +137,6 @@
       font-size: 1.5rem;
       font-family: 'genesis-head';
       font-weight: 300;
-      opacity: 0;
       transform: translateY(30%);
     }
   }
@@ -261,7 +259,7 @@
       }
     }
   }
-  .group-text{
+  .headline{
     position: relative;
     top: 200px;
     padding: 0 120px;
@@ -270,20 +268,12 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    color: #000;
-    .headline{
-      text-transform: uppercase;
-      font-family: 'genesis-text';
-      font-size: 14px;
-      letter-spacing: 1.12px;
-    }
-    .desc{
-      text-align: justify;
-      font-size: 14px;
-      letter-spacing: 1.12px;
-      font-family: 'genesis-head';
-      font-weight: 300;
-    }
+    text-transform: uppercase;
+    font-family: 'genesis-text';
+    font-size: 14px;
+    letter-spacing: 1.12px;
+    font-weight: bold;
+    color: #fff;
   }
   .group-card{
     position: absolute;

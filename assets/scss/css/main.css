@@ -130,7 +130,7 @@
 }
 .sc-about .info {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -154,7 +154,6 @@
   font-size: 3rem;
   font-family: "genesis-head";
   font-weight: 300;
-  opacity: 0;
   -webkit-transform: translateY(30%);
           transform: translateY(30%);
   margin-bottom: 2rem;
@@ -163,7 +162,6 @@
   font-size: 1.5rem;
   font-family: "genesis-head";
   font-weight: 300;
-  opacity: 0;
   -webkit-transform: translateY(30%);
           transform: translateY(30%);
 }
@@ -307,7 +305,7 @@
      object-fit: cover;
   overflow: hidden;
 }
-.sc-space .group-text {
+.sc-space .headline {
   position: relative;
   top: 200px;
   padding: 0 120px;
@@ -322,20 +320,12 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
-  color: #000;
-}
-.sc-space .group-text .headline {
   text-transform: uppercase;
   font-family: "genesis-text";
   font-size: 14px;
   letter-spacing: 1.12px;
-}
-.sc-space .group-text .desc {
-  text-align: justify;
-  font-size: 14px;
-  letter-spacing: 1.12px;
-  font-family: "genesis-head";
-  font-weight: 300;
+  font-weight: bold;
+  color: #fff;
 }
 .sc-space .group-card {
   position: absolute;

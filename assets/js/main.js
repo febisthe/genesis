@@ -173,16 +173,6 @@ gsap.to('.sc-visual .visual-slide .pagination', {
   yPercent: -100,
 })
 
-const aboutTl = gsap.timeline({
-  scrollTrigger:{
-    trigger: '.sc-about',
-    start: '40% 40%',
-    end: '100% 100%',
-    // markers: true,
-  },
-})
-aboutTl.to('.sc-about .info .tit', {opacity: 1, yPercent:-30, duration: 1})
-aboutTl.to('.sc-about .info .desc', {opacity: 1, yPercent:-30, duration: 1})
 
 gsap.from('.sc-lineup .swiper-slide',0.7,{
   scrollTrigger:{
